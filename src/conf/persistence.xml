@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="CinemaWebManagerPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>model.Roles</class>
+    <class>model.Rooms</class>
+    <class>model.Showtimes</class>
+    <class>model.Fastfoods</class>
+    <class>model.Fastfoodorders</class>
+    <class>model.Genres</class>
+    <class>model.Seats</class>
+    <class>model.Customers</class>
+    <class>model.Fastfoodorderdetails</class>
+    <class>model.Tickettypes</class>
+    <class>model.Tickets</class>
+    <class>model.Genredetails</class>
+    <class>model.Showtimedetails</class>
+    <class>model.Movies</class>
+    <class>model.Combos</class>
+    <class>model.Promotions</class>
+    <class>model.Employees</class>
+    <class>model.Customers_1</class>
+    <class>model.Roles_1</class>
+    <class>model.Vouchers</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/cinemamanager?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>

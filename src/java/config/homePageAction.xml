@@ -1,0 +1,16 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<!-- Author: duckh -->
+ 
+<struts>
+    <package name="homePageAction" extends="default">
+        <result-types>
+            <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult"/>
+        </result-types>
+        <action name="Prepare" class="controller.HomePageAction" method="Prepare">
+            <result type="tiles" name="prepare">home.page</result>
+        </action>
+    </package>
+</struts>
