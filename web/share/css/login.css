@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-Sep-2020, 18:05:22
+    Author     : CongCM
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Sep-2020, 14:06:05
+    Author     : CongCM
+*/
+
+.modal-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5.modal-title {
+    text-align: center;
+    margin-left: auto;
+}
+.modal-body{
+    margin-left:auto;
+}
+.modal-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer-login,
+forgot-and-remember,
+body-login{
+    width: 70%;
+}
+.body-login{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:25px;
+    margin-bottom: 15px;
+}
+.user{
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.user #username,
+.user #password{
+    margin-left: 10px;
+}
+.forgot-and-remember{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-login{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+input.btn.btn-primary{
+   padding: 5px 60px ;
+}
