@@ -1793,9 +1793,9 @@ CREATE TABLE `vouchers` (
   `ID` int(11) NOT NULL,
   `Code` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `Discount` float NOT NULL,
-  `ApplyFastFoodID` int(11) NOT NULL,
-  `ApplyTicketTypeID` int(11) NOT NULL,
-  `ApplyComboID` int(11) NOT NULL,
+  `ApplyFastFoodID` int(11) NULL,
+  `ApplyTicketTypeID` int(11) NULL,
+  `ApplyComboID` int(11) NULL,
   `Type` varchar(10) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `ApplyFor` varchar(10) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `Status` tinyint(1) NOT NULL
