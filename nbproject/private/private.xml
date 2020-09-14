@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/NUCE/CinemaWebManager/web/WEB-INF/jsp/pages/home.jsp</file>
-            <file>file:/E:/NUCE/CinemaWebManager/src/java/controller/HomePageAction.java</file>
-            <file>file:/E:/NUCE/CinemaWebManager/src/java/config/homePageAction.xml</file>
-            <file>file:/E:/NUCE/CinemaWebManager/src/java/controller/CustomerController.java</file>
+            <file>file:/D:/NUCE/CinemaWebManager/web/WEB-INF/config/tiles.xml</file>
+            <file>file:/D:/NUCE/CinemaWebManager/web/WEB-INF/config/tiles_home.xml</file>
+            <file>file:/D:/NUCE/CinemaWebManager/web/WEB-INF/jsp/pages/layout/include.jsp</file>
         </group>
     </open-files>
 </project-private>
